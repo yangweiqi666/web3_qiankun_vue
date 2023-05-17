@@ -1,0 +1,20 @@
+{
+  "name":"app3",
+  "private": true,
+  "author": "yangweiqi <yangweiqi@wafersystems.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.0.68",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@umijs/plugins": "^4.0.68",
+    "@umijs/preset-vue": "^4.0.68",
+    "typescript": "^5.0.3"
+  }
+}
